@@ -1,0 +1,19 @@
+FolderTreeVisualizer/
+├── pom.xml                           # Maven配置文件
+├── src/
+│   └── main/
+│       ├── java/
+│       │   └── com/
+│       │       └── foldertree/
+│       │           ├── Main.java                 # 程序入口
+│       │           ├── ui/
+│       │           │   ├── MainFrame.java        # 主窗口UI
+│       │           │   └── TreeTextPane.java     # 自定义文本面板
+│       │           └── core/
+│       │               └── FolderScanner.java    # 文件夹扫描器
+│       └── resources/
+│           ├── icons/
+│           │   ├── folder_icon.png      # 文件夹图标
+│           │   └── file_icon.png        # 文件图标
+│           └── LICENSE
+└──
